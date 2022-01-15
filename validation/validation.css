@@ -1,0 +1,67 @@
+@font-face {
+    font-family: goblin;
+    src: url(../fonts/goblinfont/AGoblinAppears-o2aV.ttf);
+}
+nav {
+    background-color: #D7E2A3;
+    padding: 2em;
+    border: 5px solid black;
+}
+
+#homepage {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("../art/buttons/main_icon.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1.2em;
+    padding-left: 2.2em;
+}
+
+#homepage:focus {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("../art/buttons/main_icon_pressed.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1.2em;
+    padding-left: 2.2em;
+}
+
+.homelogo {
+    font-family: goblin;
+    text-align: center;
+    margin: 2em;
+}
+
+.validationheading {
+    font-family: goblin;
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    background-color: #D7E2A3;
+    border: 5px solid black;
+    position: relative;
+    z-index: 1;
+}
+
+.pendinglist {
+    font-family: goblin;
+    padding: 1.5em;
+    background-color: #D7E2A3;
+    border: 5px solid black;
+    position: relative;
+    z-index: 2;
+}

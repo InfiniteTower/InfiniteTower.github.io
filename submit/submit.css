@@ -113,5 +113,40 @@ nav {
     background-color: #D7E2A3;
     border: 5px solid black;
     position: relative;
+    z-index: 2;
+}
+
+.submitform {
+    font-family: goblin;
+    background-color: #D7E2A3;
+    border: 5px solid black;
+    position: relative;
     z-index: 1;
 }
+.name {
+    padding: 1em;
+}
+
+.categories {
+    padding: 1em;
+}
+
+.link {
+    padding: 1em;
+}
+
+.submitbutton {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    font-family: goblin;
+    padding: 2.2em;
+    margin: 2em;
+    background-image: url("../art/buttons/button.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
