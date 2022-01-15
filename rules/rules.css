@@ -1,0 +1,24 @@
+@font-face {
+    font-family: wayfarers;
+    src: url(fonts/wayfarers-toy-box-font/WayfarersToyBoxRegular-gxxER.ttf);
+}
+nav {
+    background-color: #D7E2A3;
+    padding: 1em;
+    border: 3px solid black;
+}
+
+#navbutton {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("../art/button.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0.5em;
+}
