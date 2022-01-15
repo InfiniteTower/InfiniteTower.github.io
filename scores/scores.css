@@ -2,6 +2,19 @@
     font-family: goblin;
     src: url(../fonts/goblinfont/AGoblinAppears-o2aV.ttf);
 }
+
+body {
+    /*image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;*/
+    
+    background-image: url("../art/background_blurred.png");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+
 nav {
     background-color: #D7E2A3;
     padding: 2em;
