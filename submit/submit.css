@@ -113,7 +113,7 @@ nav {
     background-color: #D7E2A3;
     border: 5px solid black;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .submitform {
@@ -121,7 +121,8 @@ nav {
     background-color: #D7E2A3;
     border: 5px solid black;
     position: relative;
-    z-index: 1;
+    margin-top: 1em;
+    z-index: 2;
 }
 .name {
     padding: 1em;
