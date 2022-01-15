@@ -1,14 +1,14 @@
 @font-face {
-    font-family: wayfarers;
-    src: url(fonts/wayfarers-toy-box-font/WayfarersToyBoxRegular-gxxER.ttf);
+    font-family: goblin;
+    src: url(fonts/goblinfont/AGoblinAppears-o2aV.ttf);
 }
 nav {
     background-color: #D7E2A3;
-    padding: 1em;
-    border: 3px solid black;
+    padding: 2em;
+    border: 5px solid black;
 }
 
-#navbutton {
+#homepage {
     image-rendering: -moz-crisp-edges;
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
@@ -20,5 +20,62 @@ nav {
     background-image: url("../art/button.png");
     background-repeat: no-repeat;
     background-size:cover;
-    padding: 0.5em;
+    padding: 1em;
+    padding-left: 2.2em;
+}
+#rulepage {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("../art/button.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1em;
+    padding-left: 2.2em;
+}
+#scorepage {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("../art/button.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1em;
+    padding-left: 2.2em;
+}
+
+.homelogo {
+    font-family: goblin;
+    text-align: center;
+    margin: 2em;
+}
+
+.ruleheading {
+    font-family: goblin;
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    background-color: #D7E2A3;
+    border: 5px solid black;
+    position: relative;
+    z-index: 1;
+}
+
+.rulelist {
+    font-family: goblin;
+    padding: 1.5em;
+    background-color: #D7E2A3;
+    border: 5px solid black;
+    position: relative;
+    z-index: 2;
 }

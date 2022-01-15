@@ -4,11 +4,11 @@
 }
 nav {
     background-color: #D7E2A3;
-    padding: 1em;
-    border: 3px solid black;
+    padding: 2em;
+    border: 5px solid black;
 }
 
-#navbutton {
+#homepage {
     image-rendering: -moz-crisp-edges;
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
@@ -17,10 +17,91 @@ nav {
 
     text-decoration: none;
     color: transparent;
-    background-image: url("../art/button.png");
+    background-image: url("art/buttons/main_icon.png");
     background-repeat: no-repeat;
     background-size:cover;
-    padding: 0.5em;
+    padding: 1.2em;
+    padding-left: 2.2em;
+}
+
+#homepage:focus {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("art/buttons/main_icon_pressed.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1.2em;
+    padding-left: 2.2em;
+}
+
+
+#submitpage {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("art/buttons/home_button.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1.2em;
+    padding-left: 2.2em;
+}
+
+#submitpage:focus {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("art/buttons/home_button_pressed.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1.2em;
+    padding-left: 2.2em;
+}
+#scorepage {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("art/buttons/trophy_icon.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1.2em;
+    padding-left: 2.2em;
+}
+
+#scorepage:focus {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+    text-decoration: none;
+    color: transparent;
+    background-image: url("art/buttons/trophy_icon_pressed.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 1.2em;
+    padding-left: 2.2em;
 }
 
 .homelogo {
@@ -35,7 +116,7 @@ nav {
     margin: 1em;
     padding: 1em;
     background-color: #D7E2A3;
-    border: 3px solid black;
+    border: 5px solid black;
     position: relative;
     z-index: 1;
 }
@@ -44,7 +125,7 @@ nav {
     font-family: goblin;
     padding: 1.5em;
     background-color: #D7E2A3;
-    border: 3px solid black;
+    border: 5px solid black;
     position: relative;
     z-index: 2;
 }
