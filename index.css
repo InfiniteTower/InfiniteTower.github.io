@@ -4,13 +4,13 @@
 }
 
 body {
-    /*image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
-    -ms-interpolation-mode: nearest-neighbor;*/
+    -ms-interpolation-mode: nearest-neighbor;
     
-    background-image: url("art/background_blurred.png");
+    background-image: url("art/background.png");
     background-size: cover;
     /*background-repeat: no-repeat;*/
 }
@@ -19,6 +19,19 @@ nav {
     background-color: #D7E2A3;
     padding: 2em;
     border: 5px solid black;
+}
+
+.link {
+    text-decoration: none;
+    color: purple;
+}
+
+.overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+    z-index: 4;
 }
 
 #homepage {
@@ -137,6 +150,27 @@ nav {
 
 .rulelist {
     font-family: goblin;
+    padding: 1.5em;
+    background-color: #D7E2A3;
+    border: 5px solid black;
+    position: relative;
+    z-index: 2;
+}
+
+.otherheading {
+    font-family: goblin;
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    background-color: #D7E2A3;
+    border: 5px solid black;
+    position: relative;
+    z-index: 3;
+}
+
+.otherbox {
+    font-family: goblin;
+    display: block;
     padding: 1.5em;
     background-color: #D7E2A3;
     border: 5px solid black;

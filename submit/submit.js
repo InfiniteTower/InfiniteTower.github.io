@@ -1,13 +1,28 @@
 window.onload = function () {
-    var submitbutton = document.getElementsByClassName("submitbutton");
+
+    var submitbutton = document.getElementById("submitbutton");
     if (submitbutton.addEventListener) {
         submitbutton.addEventListener("click", submitClick, false);
-    } else if (btn.attachEvent) {
-        submitbutton.attachEvent("onclick", btnClick);
+    } else if (submitbutton.attachEvent) {
+        submitbutton.attachEvent("onclick", submitClick);
     }
+
 };
+
 function submitClick() {
-    alert(document.getElementsByClassName("linkinput").value);
-    alert(document.getElementById("category").value);
-    alert(document.getElementsByClassName("nameinput").value);
+    
+    var username = document.getElementById("nameinput").value;
+    var category = (document.querySelector('input[name="category"]:checked').value);
+    var link = (document.getElementById("linkinput").value);
+    const pending = [];
+    
+    var combined = username + ", " + category  + ", " + link;
+    pending.push(combined);
+
+    //alert("FUCK");
+
+    /*export{
+        combined,
+        pending
+    };*/
 }
