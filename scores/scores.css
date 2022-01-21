@@ -127,9 +127,12 @@ nav {
 }
 
 .homelogo {
-    font-family: goblin;
-    text-align: center;
-    margin: 2em;
+    display: block;
+    margin: 1em;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10em;
 }
 
 .boardheading {

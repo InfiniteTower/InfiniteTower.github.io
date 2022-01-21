@@ -9,7 +9,7 @@ body {
     image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
-    
+
     background-image: url("art/background.png");
     background-size: cover;
     /*background-repeat: no-repeat;*/
@@ -131,10 +131,12 @@ nav {
 }
 
 .homelogo {
-    font-family: goblin;
-    color: white;
-    text-align: center;
-    margin: 2em;
+  display: block;
+  margin: 1em;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3em;
 }
 
 .ruleheading {

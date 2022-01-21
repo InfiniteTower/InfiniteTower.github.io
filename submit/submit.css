@@ -126,6 +126,15 @@ nav {
     padding-left: 2.2em;
 }
 
+.homelogo {
+    display: block;
+    margin: 1em;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10em;
+}
+
 .submitheading {
     font-family: goblin;
     display: inline;
