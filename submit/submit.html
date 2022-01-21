@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index page</title>
     <link rel="stylesheet" type="text/css" href="submit.css"/>
-    <script src="submit.js"></script>
+    <script type="text/javascript" src="submit.js"></script>
 </head>
 <body>
 
@@ -22,19 +22,22 @@
     <div class="submitform">
         <div class="name">
             <h3>Name</h3>
-            <input id="nameinput"> 
+            <input v-model="name" placeholder="Put name here !">
+            <p>name is: {{ name }}</p>
         </input>
         </div>
 
         <div class="categories">
             <h3>Category</h3>
-            <input type="radio" value="Normal" name="category">
-            <label>Normal</label>
+            <select v-model="selected">
+                <option disabled value="">Select category</option>
+                <option>Normal</option>
+            </select>
         </div>
 
         <div class="link">
             <h3>Link</h3>
-            <input id="linkinput"></input>
+            <input v-model="link" placeholder="Put link here !">
         </div>
 
         <div class="submit_container">
