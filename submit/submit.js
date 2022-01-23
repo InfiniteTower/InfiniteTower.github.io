@@ -1,7 +1,11 @@
 Vue.createApp({
     data() {
         return {
-            name: ''
+            nameinput: '',
+            selectinput: '',
+            linkinput: ''
         }
     }
 }).mount('#v-model-basic')
+
+console.log(nameinput, selectinput, linkinput);
