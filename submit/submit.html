@@ -6,44 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index page</title>
     <link rel="stylesheet" type="text/css" href="submit.css"/>
+    <script src="https://unpkg.com/vue@next"></script>
     <script type="text/javascript" src="submit.js"></script>
 </head>
 <body>
 
-    <img src="../art/act2shaderrecreation.png" class="overlay">
+    <div id="app">
 
-    <nav>
-        <a href="../index.html" id="homepage">⠀⠀⠀⠀</a>
-        <a href="../scores/scores.html" id="scorepage">⠀⠀⠀⠀</a>
-        <a href="submit.html" id="submitpage">⠀⠀⠀⠀</a>
-    </nav>
+        <img src="../art/act2shaderrecreation.png" class="overlay">
 
-    <img src="../art/LOGO.png" alt="Infinite_Tower_Logo_Epic_Socialism" class="homelogo">
+        <nav>
+            <a href="../index.html" id="homepage">⠀⠀⠀⠀</a>
+            <a href="../scores/scores.html" id="scorepage">⠀⠀⠀⠀</a>
+            <a href="submit.html" id="submitpage">⠀⠀⠀⠀</a>
+        </nav>
 
-    <h2 class="submitheading">Submit</h2>
-    <div class="submitform">
-        <div class="name">
-            <h3>Name</h3>
-            <input v-model="nameinput" placeholder="Put name here !">
-        </input>
+        <img src="../art/LOGO.png" alt="Infinite_Tower_Logo_Epic_Socialism" class="homelogo">
+
+        {{ test }}
+
+        <h2 class="submitheading">Submit</h2>
+        <div class="submitform">
+            <div class="name">
+                <h3>Name</h3>
+                <input v-model="nameinput" placeholder="Put name here !">
+            </input>
+            </div>
+
+            <div class="categories">
+                <h3>Category</h3>
+                <select v-model="selectinput">
+                    <option disabled value="">Select category</option>
+                    <option>Normal</option>
+                </select>
+            </div>
+
+            <div class="link">
+                <h3>Link</h3>
+                <input v-model="linkinput" placeholder="Put link here !">
+            </div>
+
+            <div class="submit_container">
+                <button id="submitbutton">Submit</button>
+            </div>
         </div>
 
-        <div class="categories">
-            <h3>Category</h3>
-            <select v-model="selectinput">
-                <option disabled value="">Select category</option>
-                <option>Normal</option>
-            </select>
-        </div>
-
-        <div class="link">
-            <h3>Link</h3>
-            <input v-model="linkinput" placeholder="Put link here !">
-        </div>
-
-        <div class="submit_container">
-            <button id="submitbutton">Submit</button>
-        </div>
     </div>
     
 </body>

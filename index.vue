@@ -1,6 +1,0 @@
-Vue.createApp({
-    
-});
-
-
-app.mount()

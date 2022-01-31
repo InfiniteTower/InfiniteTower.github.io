@@ -5,46 +5,52 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>infinitetower-vue</title>
     <link rel="stylesheet" type="text/css" href="index.css"/>
-    <script src="index.vue"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="index.js"></script>
   </head>
   <body>
-    <img src="art/act2shaderrecreation.png" class="overlay">
 
-    <nav>
-        <a href="index.html" id="homepage">⠀⠀⠀⠀</a>
-        <a href="scores/scores.html" id="scorepage">⠀⠀⠀⠀</a>
-        <a href="submit/submit.html" id="submitpage">⠀⠀⠀⠀</a>
-    </nav>
+    <div id="app">
+      <img src="art/act2shaderrecreation.png" class="overlay">
 
-    <img src="art/LOGO.png" alt="Infinite_Tower_Logo_Epic_Socialism" class="homelogo">
+      <nav>
+          <a href="index.html" id="homepage">⠀⠀⠀⠀</a>
+          <a href="scores/scores.html" id="scorepage">⠀⠀⠀⠀</a>
+          <a href="submit/submit.html" id="submitpage">⠀⠀⠀⠀</a>
+      </nav>
 
-    <h2 class="ruleheading">Rules</h2>
-    <ul class="rulelist">
-        <li>Your deck may not have more than 40 Cards</li>
-        <p></p>
-        <li>Your Deck may not contain any of these Cards (Any spore Cards, Ouroboros, Energy Conduit, Bone Lords Horn)</li>
-        <p></p>
-        <li>You may not have more than 4 of any Common Card in your Deck and no more than 2 of a rare Card (Ex. more than 4 Field Mice or more than 2 Mantis Gods)</li>
-        <p></p>
-        <li>Your deck may not be an infinite loop deck that allows you to win every fight using the same loop (Ex.Infinite Bones Combo using field mice and pharaos Pets)</li>
-        <p></p>
-        <li>Your Run needs to be recorded for it to count</li>
-        <p></p>
-    </ul>
+      <img src="art/LOGO.png" alt="Infinite_Tower_Logo_Epic_Socialism" class="homelogo">
 
-    <h2 class="otherheading">Other Information</h2>
-    <p2 class="otherbox">What is Infinitower?
-        <p></p>
-        <a href="https://inscryption.thunderstore.io/package/Kopie/Kopie_Infinit_Act_2_Act2Arena/" class="link"> Infinitower </a> is a Mod for Inscrytion that adds an infinite gamemode to act 2.
-        <p></p>
-        What mods are whitelisted?
-        <p></p>
-        The current whitelisted mods are:
-        <p></p>
-        <a href="https://inscryption.thunderstore.io/package/Sire/RecreatedAct2Cards/" class="link"> Recreated Act 2 Cards </a> by Sire
-        <p></p>
-        <a href="https://inscryption.thunderstore.io/package/Arackulele/AraExpansionAct2/" class="link"> Ara Expansion act 2 </a> by Ara
+      <h2 class="ruleheading">Rules</h2>
+      <ul class="rulelist">
+          {{ test }}
+          <li>Your deck may not have more than 40 Cards</li>
+          <p></p>
+          <li>Your Deck may not contain any of these Cards (Any spore Cards, Ouroboros, Energy Conduit, Bone Lords Horn)</li>
+          <p></p>
+          <li>You may not have more than 4 of any Common Card in your Deck and no more than 2 of a rare Card (Ex. more than 4 Field Mice or more than 2 Mantis Gods)</li>
+          <p></p>
+          <li>Your deck may not be an infinite loop deck that allows you to win every fight using the same loop (Ex.Infinite Bones Combo using field mice and pharaos Pets)</li>
+          <p></p>
+          <li>Your Run needs to be recorded for it to count</li>
+          <p></p>
+      </ul>
 
-    </p2>
+      <h2 class="otherheading">Other Information</h2>
+      <p2 class="otherbox">What is Infinitower?
+          <p></p>
+          <a href="https://inscryption.thunderstore.io/package/Kopie/Kopie_Infinit_Act_2_Act2Arena/" class="link"> Infinitower </a> is a Mod for Inscrytion that adds an infinite gamemode to act 2.
+          <p></p>
+          What mods are whitelisted?
+          <p></p>
+          The current whitelisted mods are:
+          <p></p>
+          <a href="https://inscryption.thunderstore.io/package/Sire/RecreatedAct2Cards/" class="link"> Recreated Act 2 Cards </a> by Sire
+          <p></p>
+          <a href="https://inscryption.thunderstore.io/package/Arackulele/AraExpansionAct2/" class="link"> Ara Expansion act 2 </a> by Ara
+
+      </p2>
+
+  </div>
   </body>
 </html>
